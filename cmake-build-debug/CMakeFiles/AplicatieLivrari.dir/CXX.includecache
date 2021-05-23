@@ -1,0 +1,132 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+string
+-
+ostream
+-
+Entity.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.cpp
+Courier.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
+Entity.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+string
+-
+ostream
+-
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+IdGenerator.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
+map
+-
+vector
+-
+EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+ctime
+-
+cstdlib
+-
+algorithm
+-
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
+string
+-
+ostream
+-
+EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+Entity.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+string
+-
+ostream
+-
+../Entitites/Entity.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+../Entitites/Entity.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+vector
+-
+fstream
+-
+../Entitites/EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+../Entitites/Courier.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
+../Entitites/Order.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
+../Entitites/Restaurant.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+../Entitites/Client.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+string
+-
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.cpp
+ClientService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+string
+-
+../Repo/RepoTemp.h
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.cpp
+CourierService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+../Repo/RepoTemp.h
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp
+../Entitites/IdGenerator.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
+../Entitites/EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+iostream
+-
+../Entitites/Client.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+testGenerateId.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+../Repo/RepoTemp.h
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+../Entitites/EntityType.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+

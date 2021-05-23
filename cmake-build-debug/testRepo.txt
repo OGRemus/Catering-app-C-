@@ -1,0 +1,4 @@
+ id: 90 adress: Strada zambilicii username: Relu69 premium: 1
+ id: 23 adress:  username:  premium: 0
+ id: 12 adress:  username:  premium: 0
+ id: 10 adress:  username:  premium: 0

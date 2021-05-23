@@ -1,0 +1,3 @@
+S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir
+S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/rebuild_cache.dir
