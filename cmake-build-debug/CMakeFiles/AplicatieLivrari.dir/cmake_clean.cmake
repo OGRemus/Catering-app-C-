@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "AplicatieLivrari.pdb"
   "CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj"
-  "CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj"

@@ -98,9 +98,6 @@
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
-		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.cpp">
-			<Option target="AplicatieLivrari"/>
-		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
@@ -152,10 +149,22 @@
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/main.cpp">

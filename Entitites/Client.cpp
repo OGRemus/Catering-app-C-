@@ -49,3 +49,21 @@ ostream &operator<<(ostream &os, const Client &client) {
     return os;
 }
 
+bool Client::operator==(const Client &rhs) const {
+    return
+           adress == rhs.adress &&
+           username == rhs.username &&
+           premium == rhs.premium;
+}
+
+bool Client::operator!=(const Client &rhs) const {
+    return !(rhs == *this);
+}
+
+Client &Client::operator=(const Client &client) {
+    this->setAdress(client.getAdress());
+    this->setPremium(client.isPremium());
+    this->setUsername(client.getUsername());
+    return *this;
+}
+

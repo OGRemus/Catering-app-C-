@@ -23,7 +23,14 @@ public:
 
     friend ostream &operator<<(ostream &os, const Courier &courier);
 
+    bool operator==(const Courier &rhs) const;
+
+    bool operator!=(const Courier &rhs) const;
+
+    Courier& operator=(const Courier& courier);
+
 };
+
 
 
 #endif //APLICATIELIVRARI_COURIER_H

@@ -55,6 +55,9 @@ public:
     ~Order();
 
     friend ostream &operator<<(ostream &os, const Order &order);
+
+    Order& operator=(const Order& order);
+
 };
 
 

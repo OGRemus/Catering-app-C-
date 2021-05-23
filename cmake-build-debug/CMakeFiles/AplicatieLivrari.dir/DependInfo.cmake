@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj"
-  "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/PremiumOrder.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj"

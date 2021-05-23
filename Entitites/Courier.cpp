@@ -22,6 +22,21 @@ ostream &operator<<(ostream &os, const Courier &courier) {
     os << courier.id << " " << " name: " << courier.name;
     return os;
 }
+bool Courier::operator==(const Courier &rhs) const {
+    return name == rhs.name;
+}
+
+bool Courier::operator!=(const Courier &rhs) const {
+    return !(rhs == *this);
+}
+
+Courier &Courier::operator=(const Courier &courier) {
+    this->setName(courier.getName());
+    return *this;
+}
+
+
+
 
 
 

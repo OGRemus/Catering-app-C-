@@ -1,3 +1,6 @@
+
+#ifndef panarama
+#define panarama
 #include "..//Entitites/Entity.h"
 #include <vector>
 #include <fstream>
@@ -86,7 +89,7 @@ void RepoTemp<T, type>::addElem(const T &s) {
 
 template<class T, entityType type>
 void RepoTemp<T, type>::updateElem(const T &oldElem, const T &newElem) {
-    typename vector<T, entityType>::iterator it;
+    typename vector<T>::iterator it;
     it = find(this->elements.begin(), this->elements.end(), oldElem);
     if (it != this->elements.end()) {
         *it = newElem;
@@ -96,7 +99,7 @@ void RepoTemp<T, type>::updateElem(const T &oldElem, const T &newElem) {
 
 template<class T, entityType type>
 void RepoTemp<T, type>::deleteElem(const T &elem) {
-    typename vector<T, entityType>::iterator it;
+    typename vector<T>::iterator it;
     it = find(this->elements.begin(), this->elements.end(), elem);
     if (it != this->elements.end()) {
         this->elements.erase(it);
@@ -150,7 +153,7 @@ T RepoTemp<T, type>::getById(int id) {
 
 template<class T, entityType type>
 void RepoTemp<T, type>::clearFile() {
-    ofstream f(this->filename);
+    ofstream f(this->fileName);
     f.close();
 }
 
@@ -173,3 +176,5 @@ typedef RepoTemp<Client, entityType_Client> clientRepo;
 typedef RepoTemp<Courier, entityType_Courier> courierRepo;
 typedef RepoTemp<Order, entityType_Order> orderRepo;
 typedef RepoTemp<Restaurant, entityType_Restaurant> restaurantRepo;
+
+#endif

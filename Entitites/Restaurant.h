@@ -28,10 +28,12 @@ public:
     void setAdress(const string &adress);
 
     friend ostream &operator<<(ostream &os, const Restaurant &restaurant);
+
+    bool operator==(const Restaurant &rhs) const;
+
+    bool operator!=(const Restaurant &rhs) const;
+
+    Restaurant& operator=(const Restaurant& restaurant);
 };
-
-
-
-
 
 #endif //APLICATIELIVRARI_RESTAURANT_H

@@ -8,40 +8,30 @@
 #include "testGenerateId.h"
 #include "..//Repo/RepoTemp.h"
 #include "../Entitites/EntityType.h"
+#include <cassert>
 
 using namespace std;
 
 void test() {
+    Client c1 = Client("Strada zambilicii", "Relu65", true);
+    int id = c1.getId();
+    bool wasExcepted = false;
+    try
+    {
+        for(int i = 0; i < 101; i++)
+        {
+            Client c = Client();
+           assert(id != c.getId());
+           // generam mai mult de 100 de iduri diferite si se arunca exceptie dupa ce depasim 100 id uri
+        }
+    }
+    catch (runtime_error e) {
+        wasExcepted = true;
+        IdGenerator::getInstance().clearMemory();
 
-//    try
-//    {
-//        for(int i = 0; i < 5; i++)
-//        {
-//            cout << IdGenerator::getInstance().generateId(entityType_Client) << endl;
-//
-//        }
-//    }
-//    catch (runtime_error e) {
-//        cout << e.what();
-//    }
-    Client c1 = Client("Strada zambilicii", "Relu69", true);
-    Client c2 = Client();
-    Client c3 = Client();
-    Client c4 = Client();
+    }
 
-    cout << c1.getId() << endl;
-    cout << c2.getId() << endl;
-    cout << c3.getId() << endl;
-    cout << c4.getId() << endl;
 
-    RepoTemp<Client, entityType_Client> repo = RepoTemp<Client, entityType_Client>("testRepo.txt");
+    assert(wasExcepted == true);
 
-    repo.addElem(c1);
-    repo.addElem(c2);
-    repo.addElem(c3);
-    repo.addElem(c4);
-
-    orderRepo repoOr = orderRepo("Ristorante_ragazzi.txt");
-    Order order = Order();
-    repoOr.addElem(order);
 }

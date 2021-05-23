@@ -13,10 +13,6 @@ CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj: ../Entitites/Entity.h
 CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj: ../Entitites/EntityType.h
 CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj: ../Entitites/IdGenerator.h
 
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj: ../Entitites/EntityType.h
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj: ../Entitites/IdGenerator.cpp
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj: ../Entitites/IdGenerator.h
-
 CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj: ../Entitites/Entity.h
 CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj: ../Entitites/EntityType.h
 CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj: ../Entitites/IdGenerator.h
@@ -60,6 +56,30 @@ CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj: ../Service/Couri
 CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj: ../Service/CourierService.h
 CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj: ../Service/MasterService.h
 
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/Client.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/Courier.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/Entity.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/EntityType.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/IdGenerator.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/Order.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Entitites/Restaurant.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Repo/RepoTemp.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Service/MasterService.h
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Service/OrderService.cpp
+CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Service/OrderService.h
+
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/Client.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/Courier.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/Entity.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/EntityType.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/IdGenerator.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/Order.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Entitites/Restaurant.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Repo/RepoTemp.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Service/MasterService.h
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Service/RestaurantService.cpp
+CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Service/RestaurantService.h
+
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Entitites/Client.h
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Entitites/Courier.h
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Entitites/Entity.h
@@ -71,6 +91,17 @@ CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Repo/RepoTemp.h
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Tests/testGenerateId.cpp
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Tests/testGenerateId.h
 
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Client.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Courier.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Entity.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/EntityType.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/IdGenerator.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Order.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Restaurant.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Repo/RepoTemp.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/TestEntities.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/TestRepo.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/runTests.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/testGenerateId.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../main.cpp
 

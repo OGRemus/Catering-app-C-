@@ -1,0 +1,14 @@
+//
+// Created by geo_r on 24/05/2021.
+//
+
+#ifndef APLICATIELIVRARI_TESTSERVICE_H
+#define APLICATIELIVRARI_TESTSERVICE_H
+
+void testService(){
+
+
+}
+
+
+#endif //APLICATIELIVRARI_TESTSERVICE_H

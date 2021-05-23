@@ -16,10 +16,6 @@ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
 EntityType.h
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
 
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.cpp
-Courier.h
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
-
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
 Entity.h
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
@@ -88,45 +84,33 @@ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
 string
 -
 
-S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.cpp
-ClientService.h
-S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
-
-S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
-string
--
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
 ../Repo/RepoTemp.h
 S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
-MasterService.h
-S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+cassert
+-
 
-S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.cpp
-CourierService.h
-S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
-
-S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
-MasterService.h
-S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
-
-S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
 ../Repo/RepoTemp.h
 S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
-
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp
-../Entitites/IdGenerator.h
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
-../Entitites/EntityType.h
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
-iostream
+cassert
 -
-../Entitites/Client.h
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
 testGenerateId.h
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
-../Repo/RepoTemp.h
-S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
-../Entitites/EntityType.h
-S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+TestEntities.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
+TestRepo.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
+iostream
+-
 
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/main.cpp
+iostream
+-
+Tests/runTests.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
 

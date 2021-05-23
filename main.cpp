@@ -1,11 +1,10 @@
 #include <iostream>
-#include "Tests/testGenerateId.h"
+#include "Tests/runTests.h"
 
 using namespace std;
 
 int main() {
 
-    test();
-
+    runAll();
     return 0;
 }

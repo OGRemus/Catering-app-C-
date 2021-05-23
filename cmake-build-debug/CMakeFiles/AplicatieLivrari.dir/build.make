@@ -154,22 +154,9 @@ CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.s"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "S:\Clion projects\Structuri\AplicatieLivrari\Entitites\Client.cpp" -o CMakeFiles\AplicatieLivrari.dir\Entitites\Client.cpp.s
 
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj: ../Entitites/IdGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj"
-	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Entitites\IdGenerator.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Entitites\IdGenerator.cpp"
-
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.i"
-	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "S:\Clion projects\Structuri\AplicatieLivrari\Entitites\IdGenerator.cpp" > CMakeFiles\AplicatieLivrari.dir\Entitites\IdGenerator.cpp.i
-
-CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.s"
-	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "S:\Clion projects\Structuri\AplicatieLivrari\Entitites\IdGenerator.cpp" -o CMakeFiles\AplicatieLivrari.dir\Entitites\IdGenerator.cpp.s
-
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Tests/testGenerateId.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Tests\testGenerateId.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Tests\testGenerateId.cpp"
 
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.s: cmake_force
 
 CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
 CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj: ../Service/ClientService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Service\ClientService.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Service\ClientService.cpp"
 
 CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.s: cmake_force
 
 CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
 CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj: ../Service/CourierService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Service\CourierService.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Service\CourierService.cpp"
 
 CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.i: cmake_force
@@ -208,7 +195,7 @@ CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.s: cmake_force
 
 CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
 CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj: ../Service/OrderService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Service\OrderService.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Service\OrderService.cpp"
 
 CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.i: cmake_force
@@ -221,7 +208,7 @@ CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.s: cmake_force
 
 CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: CMakeFiles/AplicatieLivrari.dir/flags.make
 CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj: ../Service/RestaurantService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj"
 	"S:\Program Files\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\AplicatieLivrari.dir\Service\RestaurantService.cpp.obj -c "S:\Clion projects\Structuri\AplicatieLivrari\Service\RestaurantService.cpp"
 
 CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.i: cmake_force
@@ -240,7 +227,6 @@ AplicatieLivrari_OBJECTS = \
 "CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj" \
 "CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj" \
 "CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.obj" \
-"CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj" \
 "CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj" \
 "CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj" \
 "CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj" \
@@ -256,7 +242,6 @@ AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Entitites/Client.cpp.obj
-AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj
@@ -266,7 +251,7 @@ AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/build.make
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/linklibs.rsp
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/objects1.rsp
 AplicatieLivrari.exe: CMakeFiles/AplicatieLivrari.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable AplicatieLivrari.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="S:\Clion projects\Structuri\AplicatieLivrari\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable AplicatieLivrari.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AplicatieLivrari.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

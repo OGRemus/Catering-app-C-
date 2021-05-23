@@ -85,6 +85,16 @@ ostream &operator<<(ostream &os, const Order &order) {
     return os;
 }
 
+Order &Order::operator=(const Order &order) {
+
+    this->setAdress(order.getAdress());
+    this->setClientId(order.getClientId());
+    this->setCourierId(order.getCourierId());
+    this->setDetails(order.getDetails());
+    this->setPrice(order.getPrice());
+    return *this;
+}
+
 Order::~Order() = default;
 
 

@@ -34,3 +34,18 @@ const string &Restaurant::getAdress() const {
 void Restaurant::setAdress(const string &adress) {
     Restaurant::adress = adress;
 }
+
+bool Restaurant::operator==(const Restaurant &rhs) const {
+    return name == rhs.name &&
+           adress == rhs.adress;
+}
+
+bool Restaurant::operator!=(const Restaurant &rhs) const {
+    return !(rhs == *this);
+}
+
+Restaurant &Restaurant::operator=(const Restaurant &restaurant) {
+    this->setName(restaurant.getName());
+    this->setAdress(restaurant.getAdress());
+    return *this;
+}

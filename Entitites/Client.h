@@ -35,6 +35,12 @@ public:
 
     friend ostream &operator<<(ostream &os, const Client &client);
 
+    bool operator==(const Client &rhs) const;
+
+    bool operator!=(const Client &rhs) const;
+
+    Client& operator=(const Client& client);
+
 };
 
 

@@ -196,33 +196,6 @@ Entitites/Courier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/Courier.cpp.s
 .PHONY : Entitites/Courier.cpp.s
 
-Entitites/IdGenerator.obj: Entitites/IdGenerator.cpp.obj
-
-.PHONY : Entitites/IdGenerator.obj
-
-# target to build an object file
-Entitites/IdGenerator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.obj
-.PHONY : Entitites/IdGenerator.cpp.obj
-
-Entitites/IdGenerator.i: Entitites/IdGenerator.cpp.i
-
-.PHONY : Entitites/IdGenerator.i
-
-# target to preprocess a source file
-Entitites/IdGenerator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.i
-.PHONY : Entitites/IdGenerator.cpp.i
-
-Entitites/IdGenerator.s: Entitites/IdGenerator.cpp.s
-
-.PHONY : Entitites/IdGenerator.s
-
-# target to generate assembly for a file
-Entitites/IdGenerator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/IdGenerator.cpp.s
-.PHONY : Entitites/IdGenerator.cpp.s
-
 Entitites/Order.obj: Entitites/Order.cpp.obj
 
 .PHONY : Entitites/Order.obj
@@ -481,9 +454,6 @@ help:
 	@echo ... Entitites/Courier.obj
 	@echo ... Entitites/Courier.i
 	@echo ... Entitites/Courier.s
-	@echo ... Entitites/IdGenerator.obj
-	@echo ... Entitites/IdGenerator.i
-	@echo ... Entitites/IdGenerator.s
 	@echo ... Entitites/Order.obj
 	@echo ... Entitites/Order.i
 	@echo ... Entitites/Order.s

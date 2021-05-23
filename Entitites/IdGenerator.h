@@ -20,6 +20,10 @@ private:
 
     IdGenerator() {};
 public:
+    void clearMemory()
+    {
+        memory.clear();
+    }
     static IdGenerator &getInstance() {
         static IdGenerator instance;
         return instance;
