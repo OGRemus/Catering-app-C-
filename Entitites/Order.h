@@ -15,11 +15,16 @@ protected:
 
     int courierId;
     int clientId;
+    int restaurantId;
     string adress;
     string details;
     double price;
-
 public:
+    int getRestaurantId() const;
+
+    void setRestaurantId(int restaurantId);
+
+    void setPrice1(double price);
 
     int getCourierId() const;
 
@@ -43,7 +48,7 @@ public:
 
     bool operator==(const Order &rhs) const;
 
-    Order(int courierId, int clientId, string adress, string details, int price);
+    Order(int courierId, int clientId, int restaurantId ,string adress, string details, int price);
 
     Order();
 

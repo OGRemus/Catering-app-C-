@@ -6,8 +6,10 @@
 #define APLICATIELIVRARI_COURIERSERVICE_H
 #include "MasterService.h"
 
-class CourierService : public MasterService<Courier, entityType_Courier>{
-
+class CourierService : public MasterService<Courier, entityType_Courier> {
+public:
+    CourierService(string filename);
+    CourierService();
 };
 
 

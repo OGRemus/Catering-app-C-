@@ -140,6 +140,18 @@
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.cpp">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.cpp">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp">
 			<Option target="AplicatieLivrari"/>
 		</Unit>

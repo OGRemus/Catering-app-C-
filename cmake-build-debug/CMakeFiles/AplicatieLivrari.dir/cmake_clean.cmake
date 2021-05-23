@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj"
+  "CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj"
+  "CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj"
   "CMakeFiles/AplicatieLivrari.dir/main.cpp.obj"
   "libAplicatieLivrari.dll.a"

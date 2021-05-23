@@ -12,6 +12,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj"
+  "S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj"
+  "S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj"
   "S:/Clion projects/Structuri/AplicatieLivrari/main.cpp" "S:/Clion projects/Structuri/AplicatieLivrari/cmake-build-debug/CMakeFiles/AplicatieLivrari.dir/main.cpp.obj"
   )

@@ -5,24 +5,14 @@
 #include "ClientService.h"
 
 ClientService::ClientService() {
-    this->filename = "default.txt";
-    this->repo = clientRepo (filename);
+    this->repo = clientRepo ("defaultClient.txt");
 
 }
 
 ClientService::ClientService(string filename) {
-    this->filename = filename;
-    this->repo = clientRepo (this->filename);
-
+    repo.setFileName(filename);
 }
 
-void ClientService::setFilename(string filename) {
-    this->filename = filename;
-}
-
-string ClientService::getFilename() {
-    return filename;
-}
 
 vector<Client> ClientService::getPremium() {
     vector<Client> result;

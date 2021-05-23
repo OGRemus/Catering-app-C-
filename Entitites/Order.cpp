@@ -4,11 +4,7 @@
 
 #include "Order.h"
 
-ostream &operator<<(ostream &os, const Order &order) {
-    os << "Id: " <<order.id <<" courierId: " << order.courierId << " clientId: " << order.clientId << " adress: " << order.adress
-       << " details: " << order.details << " price: " << order.price;
-    return os;
-}
+
 
 int Order::getCourierId() const {
     return courierId;
@@ -59,8 +55,8 @@ bool Order::operator==(const Order &rhs) const {
            price == rhs.price;
 }
 
-Order::Order(int courierId, int clientId, string adress, string details, int price) : courierId(
-        courierId), clientId(clientId), adress(std::move(adress)), details(std::move(details)), price(price) {}
+Order::Order(int courierId, int clientId,int restaurantId ,string adress, string details, int price) : courierId(
+        courierId), clientId(clientId), adress(std::move(adress)), details(std::move(details)), price(price), restaurantId(restaurantId) {}
 
 Order::Order() {
     courierId = 0;
@@ -68,6 +64,25 @@ Order::Order() {
     adress = "";
     details = "";
     price = 0;
+}
+
+int Order::getRestaurantId() const {
+    return restaurantId;
+}
+
+void Order::setRestaurantId(int restaurantId) {
+    Order::restaurantId = restaurantId;
+}
+
+void Order::setPrice1(double price) {
+    Order::price = price;
+}
+
+ostream &operator<<(ostream &os, const Order &order) {
+    os << "ID: " <<order.id << " courierId: " << order.courierId << " clientId: " << order.clientId
+       << " restaurantId: " << order.restaurantId << " adress: " << order.adress << " details: " << order.details
+       << " price: " << order.price;
+    return os;
 }
 
 Order::~Order() = default;

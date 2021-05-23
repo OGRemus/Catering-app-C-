@@ -44,6 +44,13 @@ public:
     void loadFromFile();
 
     void saveToFile();
+
+    void clearFile();
+
+    void clearData();
+
+    void setData(vector<T> replace);
+
 };
 
 template<class T, entityType type>
@@ -137,6 +144,29 @@ T RepoTemp<T, type>::getById(int id) {
     for (auto &i: elements)
         if (static_cast<Entity<type>>(i).getId() == id)
             return i;
+
+    return T();
+}
+
+template<class T, entityType type>
+void RepoTemp<T, type>::clearFile() {
+    ofstream f(this->filename);
+    f.close();
+}
+
+template<class T, entityType type>
+
+void RepoTemp<T, type>::clearData() {
+    elements.clear();
+}
+
+template<class T, entityType type>
+void RepoTemp<T, type>::setData(vector<T> replace) {
+    this->clearData();
+    this->clearFile();
+    this->elements = replace;
+    saveToFile();
+
 }
 
 typedef RepoTemp<Client, entityType_Client> clientRepo;

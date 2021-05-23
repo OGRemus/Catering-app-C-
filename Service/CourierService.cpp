@@ -3,3 +3,13 @@
 //
 
 #include "CourierService.h"
+
+CourierService::CourierService(string filename) {
+    repo.setFileName(filename);
+
+}
+
+CourierService::CourierService() {
+    repo.setFileName("defaultService.txt");
+
+}

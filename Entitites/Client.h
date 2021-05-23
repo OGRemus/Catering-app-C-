@@ -35,7 +35,6 @@ public:
 
     friend ostream &operator<<(ostream &os, const Client &client);
 
-
 };
 
 

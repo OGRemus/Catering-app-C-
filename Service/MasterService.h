@@ -16,6 +16,7 @@ protected:
     RepoTemp<T, type> repo;
 
 public:
+
     void addElem(T &);
 
     void deleteElem(T &);

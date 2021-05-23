@@ -358,6 +358,60 @@ Service/CourierService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.s
 .PHONY : Service/CourierService.cpp.s
 
+Service/OrderService.obj: Service/OrderService.cpp.obj
+
+.PHONY : Service/OrderService.obj
+
+# target to build an object file
+Service/OrderService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj
+.PHONY : Service/OrderService.cpp.obj
+
+Service/OrderService.i: Service/OrderService.cpp.i
+
+.PHONY : Service/OrderService.i
+
+# target to preprocess a source file
+Service/OrderService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.i
+.PHONY : Service/OrderService.cpp.i
+
+Service/OrderService.s: Service/OrderService.cpp.s
+
+.PHONY : Service/OrderService.s
+
+# target to generate assembly for a file
+Service/OrderService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.s
+.PHONY : Service/OrderService.cpp.s
+
+Service/RestaurantService.obj: Service/RestaurantService.cpp.obj
+
+.PHONY : Service/RestaurantService.obj
+
+# target to build an object file
+Service/RestaurantService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj
+.PHONY : Service/RestaurantService.cpp.obj
+
+Service/RestaurantService.i: Service/RestaurantService.cpp.i
+
+.PHONY : Service/RestaurantService.i
+
+# target to preprocess a source file
+Service/RestaurantService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.i
+.PHONY : Service/RestaurantService.cpp.i
+
+Service/RestaurantService.s: Service/RestaurantService.cpp.s
+
+.PHONY : Service/RestaurantService.s
+
+# target to generate assembly for a file
+Service/RestaurantService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.s
+.PHONY : Service/RestaurantService.cpp.s
+
 Tests/testGenerateId.obj: Tests/testGenerateId.cpp.obj
 
 .PHONY : Tests/testGenerateId.obj
@@ -445,6 +499,12 @@ help:
 	@echo ... Service/CourierService.obj
 	@echo ... Service/CourierService.i
 	@echo ... Service/CourierService.s
+	@echo ... Service/OrderService.obj
+	@echo ... Service/OrderService.i
+	@echo ... Service/OrderService.s
+	@echo ... Service/RestaurantService.obj
+	@echo ... Service/RestaurantService.i
+	@echo ... Service/RestaurantService.s
 	@echo ... Tests/testGenerateId.obj
 	@echo ... Tests/testGenerateId.i
 	@echo ... Tests/testGenerateId.s
