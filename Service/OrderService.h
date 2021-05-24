@@ -7,6 +7,7 @@
 #include "MasterService.h"
 
 class OrderService: public MasterService<Order, entityType_Order> {
+public:
     OrderService();
     OrderService(string filename);
     vector<Order> getGreaterThan(double sum);
@@ -15,9 +16,9 @@ class OrderService: public MasterService<Order, entityType_Order> {
     vector<Order> sortById();
     void filterBySum(double sum);
     void filterByAdress(string adress);
-    static bool compareSum(Order o1, Order o2);
-    static bool compareId(Order o1, Order o2);
-    double getTotalSumOfRestaurant(string restaurant, restaurantRepo);
+    static bool compareSum(Order& o1, Order& o2);
+    static bool compareId(Order& o1, Order& o2);
+    double getTotalSumOfRestaurant(string restaurant, restaurantRepo&);
 };
 
 

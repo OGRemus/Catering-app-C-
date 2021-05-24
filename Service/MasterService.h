@@ -25,6 +25,7 @@ public:
 
     T getById(int id);
 
+    vector<T> getAll();
 
 };
 
@@ -48,6 +49,11 @@ void MasterService<T, type>::updateElem(T &old, T &newItem) {
 template<class T, entityType type>
 T MasterService<T, type>::getById(int id) {
     return repo.getById(id);
+}
+
+template<class T, entityType type>
+vector<T> MasterService<T, type>::getAll() {
+    return repo.getAll();
 }
 
 #endif //APLICATIELIVRARI_MASTERSERVICE_H

@@ -167,6 +167,12 @@
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.cpp">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/main.cpp">
 			<Option target="AplicatieLivrari"/>
 		</Unit>

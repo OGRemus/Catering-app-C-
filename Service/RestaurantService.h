@@ -7,6 +7,7 @@
 #include "MasterService.h"
 
 class RestaurantService: public MasterService<Restaurant, entityType_Restaurant> {
+public:
     RestaurantService(string filename);
     RestaurantService();
 };

@@ -91,6 +91,22 @@ CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.cpp
+ S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
@@ -100,8 +116,11 @@ CMakeFiles/AplicatieLivrari.dir/main.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
  S:/Clion projects/Structuri/AplicatieLivrari/main.cpp

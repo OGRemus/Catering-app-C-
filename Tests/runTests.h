@@ -4,6 +4,7 @@
 #include "testGenerateId.h"
 #include "TestEntities.h"
 #include "TestRepo.h"
+#include "testService.h"
 #include <iostream>
 
 using namespace std;
@@ -12,5 +13,6 @@ void runAll()
     test();
     testEntities();
     testRepo();
+    testService();
     cout << "Testele trec";
 }

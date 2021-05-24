@@ -42,7 +42,7 @@ double Order::getPrice() const {
     return price;
 }
 
-void Order::setPrice(int price) {
+void Order::setPrice(double price) {
     Order::price = price;
 }
 
@@ -79,20 +79,51 @@ void Order::setPrice1(double price) {
 }
 
 ostream &operator<<(ostream &os, const Order &order) {
-    os << "ID: " <<order.id << " courierId: " << order.courierId << " clientId: " << order.clientId
-       << " restaurantId: " << order.restaurantId << " adress: " << order.adress << " details: " << order.details
-       << " price: " << order.price;
+    if(&os == &cout)
+    {
+        os << "ID: " <<order.id << " courierId: " << order.courierId << " clientId: " << order.clientId
+           << " restaurantId: " << order.restaurantId << " adress: " << order.adress << " details: " << order.details
+           << " price: " << order.price;
+    }
+    else
+    {
+        os <<order.id << " " << order.courierId << " " << order.clientId
+           << " " << order.restaurantId << " " << order.adress << " " << order.details
+           << " " << order.price;
+    }
+
     return os;
 }
 
 Order &Order::operator=(const Order &order) {
 
+    this->setId(order.getId());
     this->setAdress(order.getAdress());
     this->setClientId(order.getClientId());
     this->setCourierId(order.getCourierId());
     this->setDetails(order.getDetails());
     this->setPrice(order.getPrice());
     return *this;
+}
+
+istream &operator>>(istream &is, Order &ord) {
+    int id;
+    int courierId;
+    int clientId;
+    int restaurantId;
+    string adress;
+    string details;
+    double price;
+
+    is >> id >> courierId >> clientId >> restaurantId >> adress >> details >> price;
+    ord.setId(id);
+    ord.setCourierId(courierId);
+    ord.setClientId(clientId);
+    ord.setRestaurantId(restaurantId);
+    ord.setAdress(adress);
+    ord.setDetails(details);
+    ord.setPrice(price);
+    return is;
 }
 
 Order::~Order() = default;

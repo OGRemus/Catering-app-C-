@@ -44,8 +44,18 @@ Client::Client(string adress, string username, bool premium) {
 }
 
 ostream &operator<<(ostream &os, const Client &client) {
-    os  << " id: " << client.id << " adress: " << client.adress
-       << " username: " << client.username << " premium: " << client.premium;
+    if(&os == &cout)
+    {
+        os  << " id: " << client.id << " adress: " << client.adress
+            << " username: " << client.username << " premium: " << client.premium;
+    }
+
+    else
+    {
+        os  << client.id << " " << client.adress
+            << " " << client.username << " " << client.premium;
+    }
+
     return os;
 }
 
@@ -65,5 +75,22 @@ Client &Client::operator=(const Client &client) {
     this->setPremium(client.isPremium());
     this->setUsername(client.getUsername());
     return *this;
+}
+
+istream &operator>>(istream &is, Client &cl) {
+
+    string adress;
+    string username;
+    bool premium;
+    int id;
+    is >> id;
+    is >> adress >> username >> premium;
+
+    cl.setId(id);
+    cl.setAdress(adress);
+    cl.setUsername(username);
+    cl.setPremium(premium);
+
+    return is;
 }
 

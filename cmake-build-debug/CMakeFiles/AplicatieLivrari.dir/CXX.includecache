@@ -45,6 +45,8 @@ cstdlib
 -
 algorithm
 -
+iostream
+-
 
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
 string
@@ -84,6 +86,14 @@ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
 string
 -
 
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+../Repo/RepoTemp.h
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
 ../Repo/RepoTemp.h
 S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
@@ -103,10 +113,18 @@ TestEntities.h
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
 TestRepo.h
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
+testService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
 iostream
 -
 
 S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
+../Service/OrderService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
+cassert
+-
 
 S:/Clion projects/Structuri/AplicatieLivrari/main.cpp
 iostream

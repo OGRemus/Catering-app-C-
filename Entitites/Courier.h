@@ -29,6 +29,8 @@ public:
 
     Courier& operator=(const Courier& courier);
 
+    friend istream& operator>>(istream& is, Courier& cr);
+
 };
 
 

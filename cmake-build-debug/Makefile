@@ -412,6 +412,33 @@ Tests/testGenerateId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.s
 .PHONY : Tests/testGenerateId.cpp.s
 
+UI/UI.obj: UI/UI.cpp.obj
+
+.PHONY : UI/UI.obj
+
+# target to build an object file
+UI/UI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj
+.PHONY : UI/UI.cpp.obj
+
+UI/UI.i: UI/UI.cpp.i
+
+.PHONY : UI/UI.i
+
+# target to preprocess a source file
+UI/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.i
+.PHONY : UI/UI.cpp.i
+
+UI/UI.s: UI/UI.cpp.s
+
+.PHONY : UI/UI.s
+
+# target to generate assembly for a file
+UI/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.s
+.PHONY : UI/UI.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -478,6 +505,9 @@ help:
 	@echo ... Tests/testGenerateId.obj
 	@echo ... Tests/testGenerateId.i
 	@echo ... Tests/testGenerateId.s
+	@echo ... UI/UI.obj
+	@echo ... UI/UI.i
+	@echo ... UI/UI.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

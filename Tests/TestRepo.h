@@ -32,4 +32,17 @@ void testRepo(){
     assert(repo.getAll()[0] == c2);
     assert(repo.getAll()[0].getId() == repo.getById(repo.getAll()[0].getId()).getId());
 
+    restaurantRepo resRepo = restaurantRepo("testLoadFromFile.txt");
+    resRepo.addElem(Restaurant("BurgerStore", "Adresa"));
+    resRepo.addElem(Restaurant("Pasta","Adresa"));
+
+
+    // test load from file
+    resRepo.clearData();
+    resRepo.loadFromFile();
+
+    assert(resRepo.getAll().size() == 2);
+    assert(resRepo.getAll()[0].getName() == "BurgerStore");
+    assert(resRepo.getAll()[1].getName() == "Pasta");
+
 }

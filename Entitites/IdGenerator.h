@@ -11,7 +11,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <algorithm>
-
+#include <iostream>
 using namespace std;
 
 class IdGenerator {
@@ -42,6 +42,7 @@ public:
         } while (count(memory[type].begin(), memory[type].end(), id) != 0);
 
         memory[type].push_back(id);
+
         return id;
     }
 

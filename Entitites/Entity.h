@@ -10,7 +10,10 @@ class Entity {
 protected:
     int id;
     entityType type;
-
+    void setId(int id)
+    {
+        this->id = id;
+    }
 public:
 
     Entity()
@@ -20,11 +23,11 @@ public:
     }
     ~Entity()= default;
 
-    int getId();
+    int getId() const;
 };
 
 template<entityType T>
-int Entity<T>::getId() {
+int Entity<T>::getId() const {
     return this->id;
 }
 

@@ -41,6 +41,8 @@ public:
 
     Client& operator=(const Client& client);
 
+    friend istream& operator>>(istream& is, Client& cl);
+
 };
 
 

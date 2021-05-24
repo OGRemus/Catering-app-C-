@@ -91,6 +91,22 @@ CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Repo/RepoTemp.h
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Tests/testGenerateId.cpp
 CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj: ../Tests/testGenerateId.h
 
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/Client.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/Courier.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/Entity.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/EntityType.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/IdGenerator.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/Order.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Entitites/Restaurant.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Repo/RepoTemp.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Service/ClientService.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Service/CourierService.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Service/MasterService.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Service/OrderService.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../Service/RestaurantService.h
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../UI/UI.cpp
+CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj: ../UI/UI.h
+
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Client.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Courier.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Entity.h
@@ -99,9 +115,12 @@ CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/IdGenerator.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Order.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Entitites/Restaurant.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Repo/RepoTemp.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Service/MasterService.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Service/OrderService.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/TestEntities.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/TestRepo.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/runTests.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/testGenerateId.h
+CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../Tests/testService.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj: ../main.cpp
 

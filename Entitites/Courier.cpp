@@ -19,7 +19,15 @@ void Courier::setName(const string &name) {
 }
 
 ostream &operator<<(ostream &os, const Courier &courier) {
-    os << courier.id << " " << " name: " << courier.name;
+    if(&os == &cout)
+    {
+        os << courier.id << " " << " name: " << courier.name;
+    }
+    else
+    {
+        os << courier.id << " " << courier.name;
+    }
+
     return os;
 }
 bool Courier::operator==(const Courier &rhs) const {
@@ -33,6 +41,19 @@ bool Courier::operator!=(const Courier &rhs) const {
 Courier &Courier::operator=(const Courier &courier) {
     this->setName(courier.getName());
     return *this;
+}
+
+istream &operator>>(istream &is, Courier &cr) {
+    int id;
+    is >> id;
+    string name;
+
+    is >> name;
+
+    cr.setId(id);
+    cr.setName(name);
+
+    return is;
 }
 
 

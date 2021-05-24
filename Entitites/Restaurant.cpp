@@ -4,7 +4,6 @@
 
 #include "Restaurant.h"
 
-#include <utility>
 
 Restaurant::Restaurant() {
     this-> name = "";
@@ -18,8 +17,17 @@ const string &Restaurant::getName() const {
 }
 
 ostream &operator<<(ostream &os, const Restaurant &restaurant) {
-    os << ""  << restaurant.id  << " name: " << restaurant.name << " adress: "
-       << restaurant.adress;
+    if(&os == &cout)
+    {
+        os << "ID: "  << restaurant.getId()  << " name: " << restaurant.getName() << " adress: "
+           << restaurant.getAdress();
+    }
+    else
+    {
+        os<< restaurant.getId()  << " " << restaurant.getName() << " "
+           << restaurant.getAdress();
+    }
+
     return os;
 }
 
@@ -48,4 +56,18 @@ Restaurant &Restaurant::operator=(const Restaurant &restaurant) {
     this->setName(restaurant.getName());
     this->setAdress(restaurant.getAdress());
     return *this;
+}
+
+istream &operator>>(istream &is, Restaurant &rest) {
+    int id;
+    string name;
+    string adress;
+
+    is >> id >> name >> adress;
+
+    rest.setId(id);
+    rest.setName(name);
+    rest.setAdress(adress);
+
+    return is;
 }

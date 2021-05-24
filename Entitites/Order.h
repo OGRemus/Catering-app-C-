@@ -4,13 +4,15 @@
 
 #ifndef APLICATIELIVRARI_ORDER_H
 #define APLICATIELIVRARI_ORDER_H
+
 #include <string>
 #include <ostream>
 #include "EntityType.h"
 #include "Entity.h"
+
 using namespace std;
 
-class Order : public Entity<entityType_Order>{
+class Order : public Entity<entityType_Order> {
 protected:
 
     int courierId;
@@ -44,11 +46,11 @@ public:
 
     virtual double getPrice() const;
 
-    void setPrice(int price);
+    void setPrice(double price);
 
     bool operator==(const Order &rhs) const;
 
-    Order(int courierId, int clientId, int restaurantId ,string adress, string details, int price);
+    Order(int courierId, int clientId, int restaurantId, string adress, string details, int price);
 
     Order();
 
@@ -56,7 +58,9 @@ public:
 
     friend ostream &operator<<(ostream &os, const Order &order);
 
-    Order& operator=(const Order& order);
+    friend istream &operator>>(istream &is, Order &ord);
+
+    Order &operator=(const Order &order);
 
 };
 

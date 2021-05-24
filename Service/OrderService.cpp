@@ -62,20 +62,23 @@ vector<Order> OrderService::getSmallerThan(double sum) {
     return result;
 }
 
-bool OrderService::compareSum(Order o1, Order o2) {
+bool OrderService::compareSum(Order& o1, Order& o2) {
     return o1.getPrice() < o2.getPrice();
 
 }
 
-bool OrderService::compareId(Order o1, Order o2) {
+bool OrderService::compareId(Order& o1, Order& o2) {
     return o1.getId() < o2.getId();
 }
 
-double OrderService::getTotalSumOfRestaurant(string restaurant, restaurantRepo resRepo) {
+double OrderService::getTotalSumOfRestaurant(string restaurant, restaurantRepo& resRepo) {
 
     double sum = 0;
     for(auto &i : repo.getAll())
+    {
         if(resRepo.getById(i.getRestaurantId()).getName() == restaurant)
             sum += i.getPrice();
+    }
+
     return sum;
 }

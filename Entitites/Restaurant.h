@@ -29,11 +29,15 @@ public:
 
     friend ostream &operator<<(ostream &os, const Restaurant &restaurant);
 
+    friend istream &operator>>(istream &is, Restaurant& rest);
+
     bool operator==(const Restaurant &rhs) const;
 
     bool operator!=(const Restaurant &rhs) const;
 
     Restaurant& operator=(const Restaurant& restaurant);
+
+
 };
 
 #endif //APLICATIELIVRARI_RESTAURANT_H
