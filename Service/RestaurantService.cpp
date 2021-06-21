@@ -11,3 +11,16 @@ RestaurantService::RestaurantService(string filename) {
 RestaurantService::RestaurantService() {
     repo.setFileName("defaultRestaurant.txt");
 }
+
+restaurantRepo RestaurantService::getRepo() {
+    return this->repo;
+}
+
+vector <Restaurant> RestaurantService::getByName(string name) {
+    vector<Restaurant> res;
+    for(auto&i : repo.getAll())
+        if(i.getName() == name)
+            res.push_back(i);
+
+    return res;
+}

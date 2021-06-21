@@ -10,6 +10,8 @@
 #include "../Entitites/Restaurant.h"
 #include "../Entitites/Client.h"
 #include <string>
+#include "..//Exceptions/ExistingIdException.h"
+#include "..//Exceptions/NonExistingIdException.h"
 
 
 using namespace std;
@@ -83,6 +85,11 @@ void RepoTemp<T, type>::setFileName(const string& fileName) {
 
 template<class T, entityType type>
 void RepoTemp<T, type>::addElem(const T &s) {
+
+    for(auto &i : getAll())
+        if(i.getId() == s.getId() && s.getId() > 0)
+            throw ExistingIdException("The id already exists");
+
     this->elements.push_back(s);
     this->saveToFile();
 }
@@ -94,6 +101,7 @@ void RepoTemp<T, type>::updateElem(const T &oldElem, const T &newElem) {
     if (it != this->elements.end()) {
         *it = newElem;
     }
+    else throw(NonExistingIdException("The id does not exist "));
     this->saveToFile();
 }
 
@@ -104,6 +112,7 @@ void RepoTemp<T, type>::deleteElem(const T &elem) {
     if (it != this->elements.end()) {
         this->elements.erase(it);
     }
+    else throw(NonExistingIdException("The id does not exist ") );
     this->saveToFile();
 }
 

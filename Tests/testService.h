@@ -93,7 +93,13 @@ void testService(){
     serv.addElem(ord14);
     serv.addElem(ord15);
 
-    assert(serv.getTotalSumOfRestaurant("Soviet",repoRes) == 3);
+    vector<Restaurant> rez;
+    for(auto &i : repoRes.getAll())
+        if(i.getName() == "Soviet")
+            rez.push_back(i);
+
+    assert(serv.getTotalSumOfRestaurant("Soviet",rez) == 3);
+    repoRes.clearFile();
 
 
 }

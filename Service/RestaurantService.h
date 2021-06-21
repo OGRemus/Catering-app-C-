@@ -10,6 +10,8 @@ class RestaurantService: public MasterService<Restaurant, entityType_Restaurant>
 public:
     RestaurantService(string filename);
     RestaurantService();
+    restaurantRepo getRepo();
+    vector<Restaurant> getByName(string name);
 };
 
 

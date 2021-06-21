@@ -12,12 +12,12 @@
 class Restaurant:public Entity<entityType_Restaurant>{
 protected:
     string name;
-    string adress;
+    string address;
 
 public:
     Restaurant();
 
-    Restaurant(string name, string adress);
+    Restaurant(string name, string address);
 
     const string &getName() const;
 
@@ -25,7 +25,7 @@ public:
 
     const string &getAdress() const;
 
-    void setAdress(const string &adress);
+    void setAdress(const string &address);
 
     friend ostream &operator<<(ostream &os, const Restaurant &restaurant);
 

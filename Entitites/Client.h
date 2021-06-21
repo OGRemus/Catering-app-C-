@@ -13,17 +13,17 @@ using namespace std;
 
 class Client :public Entity<entityType_Client> {
 protected:
-    string adress;
+    string address;
     string username;
     bool premium;
 public:
 
     Client();
-    Client(string adress, string username, bool premium);
+    Client(string address, string username, bool premium);
 
     const string &getAdress() const;
 
-    void setAdress(const string &adress);
+    void setAdress(const string &address);
 
     const string &getUsername() const;
 

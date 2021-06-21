@@ -19,13 +19,6 @@ CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
-CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/PremiumOrder.cpp
- S:/Clion projects/Structuri/AplicatieLivrari/Entitites/PremiumOrder.h
 CMakeFiles/AplicatieLivrari.dir/Entitites/Restaurant.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/EntityType.h
@@ -40,6 +33,8 @@ CMakeFiles/AplicatieLivrari.dir/Service/ClientService.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
@@ -52,6 +47,8 @@ CMakeFiles/AplicatieLivrari.dir/Service/CourierService.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
@@ -64,6 +61,8 @@ CMakeFiles/AplicatieLivrari.dir/Service/OrderService.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.cpp
@@ -76,6 +75,8 @@ CMakeFiles/AplicatieLivrari.dir/Service/RestaurantService.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.cpp
@@ -88,6 +89,8 @@ CMakeFiles/AplicatieLivrari.dir/Tests/testGenerateId.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
@@ -99,6 +102,9 @@ CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ValidationException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
@@ -107,6 +113,8 @@ CMakeFiles/AplicatieLivrari.dir/UI/UI.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h
  S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.cpp
  S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Validator/ClientValidator.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Validator/NameValidator.h
 CMakeFiles/AplicatieLivrari.dir/main.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Courier.h
@@ -115,12 +123,18 @@ CMakeFiles/AplicatieLivrari.dir/main.cpp.obj
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/IdGenerator.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h
  S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
  S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
  S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
+ S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h
  S:/Clion projects/Structuri/AplicatieLivrari/main.cpp

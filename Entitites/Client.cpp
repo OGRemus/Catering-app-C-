@@ -7,11 +7,11 @@
 #include <utility>
 
 const string &Client::getAdress() const {
-    return adress;
+    return address;
 }
 
-void Client::setAdress(const string &adress) {
-    Client::adress = adress;
+void Client::setAdress(const string &address) {
+    Client::address = address;
 }
 
 const string &Client::getUsername() const {
@@ -31,13 +31,13 @@ void Client::setPremium(bool premium) {
 }
 
 Client::Client() {
-    this->adress = "";
+    this->address = "";
     this->username = "";
     this->premium = false;
 }
 
-Client::Client(string adress, string username, bool premium) {
-    this->adress = std::move(adress);
+Client::Client(string address, string username, bool premium) {
+    this->address = std::move(address);
     this->username = std::move(username);
     this-> premium = premium;
 
@@ -46,13 +46,13 @@ Client::Client(string adress, string username, bool premium) {
 ostream &operator<<(ostream &os, const Client &client) {
     if(&os == &cout)
     {
-        os  << " id: " << client.id << " adress: " << client.adress
+        os  << " id: " << client.id << " address: " << client.address
             << " username: " << client.username << " premium: " << client.premium;
     }
 
     else
     {
-        os  << client.id << " " << client.adress
+        os  << client.id << " " << client.address
             << " " << client.username << " " << client.premium;
     }
 
@@ -61,7 +61,7 @@ ostream &operator<<(ostream &os, const Client &client) {
 
 bool Client::operator==(const Client &rhs) const {
     return
-           adress == rhs.adress &&
+            address == rhs.address &&
            username == rhs.username &&
            premium == rhs.premium;
 }
@@ -79,15 +79,15 @@ Client &Client::operator=(const Client &client) {
 
 istream &operator>>(istream &is, Client &cl) {
 
-    string adress;
+    string address;
     string username;
     bool premium;
     int id;
     is >> id;
-    is >> adress >> username >> premium;
+    is >> address >> username >> premium;
 
     cl.setId(id);
-    cl.setAdress(adress);
+    cl.setAdress(address);
     cl.setUsername(username);
     cl.setPremium(premium);
 

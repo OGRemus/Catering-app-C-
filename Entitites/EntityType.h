@@ -8,7 +8,6 @@ enum entityType{
     entityType_Client,
     entityType_Courier,
     entityType_Order,
-    entityType_PremiumOrder,
     entityType_Restaurant
 };
 #endif //APLICATIELIVRARI_ENTITYTYPE_H

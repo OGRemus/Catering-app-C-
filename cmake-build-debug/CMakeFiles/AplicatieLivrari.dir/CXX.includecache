@@ -66,6 +66,24 @@ ostream
 ../Entitites/Entity.h
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
 
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+string
+-
+exception
+-
+
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
+string
+-
+exception
+-
+
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ValidationException.h
+string
+-
+exception
+-
+
 S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
 ../Entitites/Entity.h
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Entity.h
@@ -85,6 +103,22 @@ S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h
 S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
 string
 -
+../Exceptions/ExistingIdException.h
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
+../Exceptions/NonExistingIdException.h
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+string
+-
+../Repo/RepoTemp.h
+S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
 
 S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
 ../Repo/RepoTemp.h
@@ -94,41 +128,47 @@ S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
 MasterService.h
 S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
 
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
-../Repo/RepoTemp.h
-S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
-cassert
--
+S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h
+MasterService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/MasterService.h
 
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
-../Repo/RepoTemp.h
-S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h
-cassert
--
-
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
-testGenerateId.h
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
-TestEntities.h
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestEntities.h
-TestRepo.h
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/TestRepo.h
-testService.h
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
+S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.cpp
+UI.h
+S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h
 iostream
 -
+../Validator/ClientValidator.h
+S:/Clion projects/Structuri/AplicatieLivrari/Validator/ClientValidator.h
+../Exceptions/ExistingIdException.h
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h
 
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/testGenerateId.h
-
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/testService.h
+S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h
+../Service/ClientService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/ClientService.h
+../Service/CourierService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/CourierService.h
+../Service/RestaurantService.h
+S:/Clion projects/Structuri/AplicatieLivrari/Service/RestaurantService.h
 ../Service/OrderService.h
 S:/Clion projects/Structuri/AplicatieLivrari/Service/OrderService.h
-cassert
--
-
-S:/Clion projects/Structuri/AplicatieLivrari/main.cpp
 iostream
 -
-Tests/runTests.h
-S:/Clion projects/Structuri/AplicatieLivrari/Tests/runTests.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Validator/ClientValidator.h
+../Exceptions/ValidationException.h
+S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ValidationException.h
+../Entitites/Client.h
+S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Client.h
+NameValidator.h
+S:/Clion projects/Structuri/AplicatieLivrari/Validator/NameValidator.h
+
+S:/Clion projects/Structuri/AplicatieLivrari/Validator/NameValidator.h
+algorithm
+-
+string
+-
+stdio.h
+-
+ctype.h
+-
 

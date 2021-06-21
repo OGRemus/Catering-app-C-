@@ -15,10 +15,10 @@ public:
     vector<Order> sortBySum();
     vector<Order> sortById();
     void filterBySum(double sum);
-    void filterByAdress(string adress);
+    void filterByAdress(string address);
     static bool compareSum(Order& o1, Order& o2);
     static bool compareId(Order& o1, Order& o2);
-    double getTotalSumOfRestaurant(string restaurant, restaurantRepo&);
+    double getTotalSumOfRestaurant(string restaurant, vector<Restaurant> res);
 };
 
 

@@ -23,11 +23,11 @@ void Order::setClientId(int clientId) {
 }
 
 const string &Order::getAdress() const {
-    return adress;
+    return address;
 }
 
-void Order::setAdress(const string &adress) {
-    Order::adress = adress;
+void Order::setAdress(const string &address) {
+    Order::address = address;
 }
 
 const string &Order::getDetails() const {
@@ -50,18 +50,18 @@ bool Order::operator==(const Order &rhs) const {
     return
     courierId == rhs.courierId &&
            clientId == rhs.clientId &&
-           adress == rhs.adress &&
+           address == rhs.address &&
            details == rhs.details &&
            price == rhs.price;
 }
 
-Order::Order(int courierId, int clientId,int restaurantId ,string adress, string details, int price) : courierId(
-        courierId), clientId(clientId), adress(std::move(adress)), details(std::move(details)), price(price), restaurantId(restaurantId) {}
+Order::Order(int courierId, int clientId,int restaurantId ,string address, string details, double price) : courierId(
+        courierId), clientId(clientId), address(std::move(address)), details(std::move(details)), price(price), restaurantId(restaurantId) {}
 
 Order::Order() {
     courierId = 0;
     clientId = 0;
-    adress = "";
+    address = "";
     details = "";
     price = 0;
 }
@@ -82,13 +82,13 @@ ostream &operator<<(ostream &os, const Order &order) {
     if(&os == &cout)
     {
         os << "ID: " <<order.id << " courierId: " << order.courierId << " clientId: " << order.clientId
-           << " restaurantId: " << order.restaurantId << " adress: " << order.adress << " details: " << order.details
+           << " restaurantId: " << order.restaurantId << " address: " << order.address << " details: " << order.details
            << " price: " << order.price;
     }
     else
     {
         os <<order.id << " " << order.courierId << " " << order.clientId
-           << " " << order.restaurantId << " " << order.adress << " " << order.details
+           << " " << order.restaurantId << " " << order.address << " " << order.details
            << " " << order.price;
     }
 
@@ -111,16 +111,16 @@ istream &operator>>(istream &is, Order &ord) {
     int courierId;
     int clientId;
     int restaurantId;
-    string adress;
+    string address;
     string details;
     double price;
 
-    is >> id >> courierId >> clientId >> restaurantId >> adress >> details >> price;
+    is >> id >> courierId >> clientId >> restaurantId >> address >> details >> price;
     ord.setId(id);
     ord.setCourierId(courierId);
     ord.setClientId(clientId);
     ord.setRestaurantId(restaurantId);
-    ord.setAdress(adress);
+    ord.setAdress(address);
     ord.setDetails(details);
     ord.setPrice(price);
     return is;

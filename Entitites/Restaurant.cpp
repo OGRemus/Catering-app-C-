@@ -7,10 +7,10 @@
 
 Restaurant::Restaurant() {
     this-> name = "";
-    this->adress = "";
+    this->address = "";
 }
 
-Restaurant::Restaurant(string name, string adress) : name(std::move(name)), adress(std::move(adress)) {}
+Restaurant::Restaurant(string name, string address) : name(std::move(name)), address(std::move(address)) {}
 
 const string &Restaurant::getName() const {
     return name;
@@ -19,7 +19,7 @@ const string &Restaurant::getName() const {
 ostream &operator<<(ostream &os, const Restaurant &restaurant) {
     if(&os == &cout)
     {
-        os << "ID: "  << restaurant.getId()  << " name: " << restaurant.getName() << " adress: "
+        os << "ID: "  << restaurant.getId()  << " name: " << restaurant.getName() << " address: "
            << restaurant.getAdress();
     }
     else
@@ -36,16 +36,16 @@ void Restaurant::setName(const string &name) {
 }
 
 const string &Restaurant::getAdress() const {
-    return adress;
+    return address;
 }
 
-void Restaurant::setAdress(const string &adress) {
-    Restaurant::adress = adress;
+void Restaurant::setAdress(const string &address) {
+    Restaurant::address = address;
 }
 
 bool Restaurant::operator==(const Restaurant &rhs) const {
     return name == rhs.name &&
-           adress == rhs.adress;
+           address == rhs.address;
 }
 
 bool Restaurant::operator!=(const Restaurant &rhs) const {
@@ -61,13 +61,13 @@ Restaurant &Restaurant::operator=(const Restaurant &restaurant) {
 istream &operator>>(istream &is, Restaurant &rest) {
     int id;
     string name;
-    string adress;
+    string address;
 
-    is >> id >> name >> adress;
+    is >> id >> name >> address;
 
     rest.setId(id);
     rest.setName(name);
-    rest.setAdress(adress);
+    rest.setAdress(address);
 
     return is;
 }

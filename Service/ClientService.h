@@ -8,7 +8,7 @@
 #include "../Repo/RepoTemp.h"
 #include "MasterService.h"
 
-class ClientService:MasterService<Client, entityType_Client>{
+class ClientService:public MasterService<Client, entityType_Client>{
 private:
 
 public:

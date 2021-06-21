@@ -223,33 +223,6 @@ Entitites/Order.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/Order.cpp.s
 .PHONY : Entitites/Order.cpp.s
 
-Entitites/PremiumOrder.obj: Entitites/PremiumOrder.cpp.obj
-
-.PHONY : Entitites/PremiumOrder.obj
-
-# target to build an object file
-Entitites/PremiumOrder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.obj
-.PHONY : Entitites/PremiumOrder.cpp.obj
-
-Entitites/PremiumOrder.i: Entitites/PremiumOrder.cpp.i
-
-.PHONY : Entitites/PremiumOrder.i
-
-# target to preprocess a source file
-Entitites/PremiumOrder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.i
-.PHONY : Entitites/PremiumOrder.cpp.i
-
-Entitites/PremiumOrder.s: Entitites/PremiumOrder.cpp.s
-
-.PHONY : Entitites/PremiumOrder.s
-
-# target to generate assembly for a file
-Entitites/PremiumOrder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\AplicatieLivrari.dir\build.make CMakeFiles/AplicatieLivrari.dir/Entitites/PremiumOrder.cpp.s
-.PHONY : Entitites/PremiumOrder.cpp.s
-
 Entitites/Restaurant.obj: Entitites/Restaurant.cpp.obj
 
 .PHONY : Entitites/Restaurant.obj
@@ -484,9 +457,6 @@ help:
 	@echo ... Entitites/Order.obj
 	@echo ... Entitites/Order.i
 	@echo ... Entitites/Order.s
-	@echo ... Entitites/PremiumOrder.obj
-	@echo ... Entitites/PremiumOrder.i
-	@echo ... Entitites/PremiumOrder.s
 	@echo ... Entitites/Restaurant.obj
 	@echo ... Entitites/Restaurant.i
 	@echo ... Entitites/Restaurant.s

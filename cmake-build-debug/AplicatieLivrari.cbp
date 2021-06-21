@@ -107,16 +107,19 @@
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Order.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
-		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/PremiumOrder.cpp">
-			<Option target="AplicatieLivrari"/>
-		</Unit>
-		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/PremiumOrder.h">
-			<Option target="AplicatieLivrari"/>
-		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.cpp">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Entitites/Restaurant.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ExistingIdException.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/NonExistingIdException.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Exceptions/ValidationException.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Repo/RepoTemp.h">
@@ -171,6 +174,12 @@
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/UI/UI.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Validator/ClientValidator.h">
+			<Option target="AplicatieLivrari"/>
+		</Unit>
+		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/Validator/NameValidator.h">
 			<Option target="AplicatieLivrari"/>
 		</Unit>
 		<Unit filename="S:/Clion projects/Structuri/AplicatieLivrari/main.cpp">

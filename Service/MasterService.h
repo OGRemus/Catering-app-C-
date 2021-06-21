@@ -27,6 +27,8 @@ public:
 
     vector<T> getAll();
 
+    void loadFromFile();
+
 };
 
 template<class T, entityType type>
@@ -54,6 +56,12 @@ T MasterService<T, type>::getById(int id) {
 template<class T, entityType type>
 vector<T> MasterService<T, type>::getAll() {
     return repo.getAll();
+}
+
+template<class T, entityType type>
+void MasterService<T, type>::loadFromFile() {
+    repo.loadFromFile();
+
 }
 
 #endif //APLICATIELIVRARI_MASTERSERVICE_H

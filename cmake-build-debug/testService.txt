@@ -1,5 +1,5 @@
-85 1 13 2 Strada 1mai gol 38
-67 2 11 11 Strada 1mai gol 38
-89 2 11 70 Strada Pavlov gol 1
-75 2 11 70 Strada Pavlov gol 1
-3 2 11 70 Strada Pavlov gol 1
+68 1 13 2 Strada 1mai gol 38
+32 2 11 11 Strada 1mai gol 38
+61 2 11 94 Strada Pavlov gol 1
+30 2 11 94 Strada Pavlov gol 1
+53 2 11 94 Strada Pavlov gol 1

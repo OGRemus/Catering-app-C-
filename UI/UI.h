@@ -10,6 +10,7 @@
 #include "..//Service/RestaurantService.h"
 #include "..//Service/OrderService.h"
 
+
 #include <iostream>
 
 using namespace std;
@@ -52,6 +53,7 @@ public:
     void uiOrderFilterBySum();
     void uiOrderFilterByAdress();
     void uiOrderGetTotalSumOfRestaurant();
+    void uiOrderFunctionalities();
 
 
 };

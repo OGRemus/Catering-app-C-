@@ -1,1 +1,7 @@
 3 63 8 4 Address1 detalii 60
+10 63 85 4 Address1 detalii 100
+5 41 10 3 Address1 detalii 1
+35 41 10 10 address detalii 100
+29 44 3 3 address detalii 100
+36 100 100 100 address detalii 100
+50 1032 1310 20 address detalii 10000
